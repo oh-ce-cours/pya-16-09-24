@@ -2,7 +2,7 @@ def is_multiple(nombre, dividende):
     return nombre % dividende == 0
 
 
-for nombre in range(1, 16):
+def regle_fizz_buzz(nombre):
     res = None
     match is_multiple(nombre, 3), is_multiple(nombre, 5):
         case True, True:
@@ -13,4 +13,9 @@ for nombre in range(1, 16):
             res = "buzz"
         case False, False:
             res = str(nombre)
+    return res
+
+
+for nombre in range(1, 16):
+    res = regle_fizz_buzz(nombre)
     print(res)
