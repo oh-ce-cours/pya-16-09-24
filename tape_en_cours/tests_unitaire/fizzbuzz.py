@@ -1,5 +1,5 @@
 def is_multiple(nombre, dividende):
-    return nombre % dividende == 1
+    return nombre % dividende == 0
 
 
 for nombre in range(1, 16):
