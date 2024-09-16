@@ -1,3 +1,7 @@
 {
-    "cSpell.language": "fr"
+    "cSpell.language": "fr",
+    "cSpell.words": [
+        "fizz",
+        "fizzbuzz"
+    ]
 }
