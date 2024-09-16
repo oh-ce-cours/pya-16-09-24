@@ -1,10 +1,10 @@
-def multiple(nombre, dividende):
+def is_multiple(nombre, dividende):
     return nombre % dividende == 0
 
 
 for nombre in range(1, 16):
     res = None
-    match multiple(nombre, 3), multiple(nombre, 5):
+    match is_multiple(nombre, 3), is_multiple(nombre, 5):
         case True, True:
             res = "fizzbuzz"
         case True, False:
