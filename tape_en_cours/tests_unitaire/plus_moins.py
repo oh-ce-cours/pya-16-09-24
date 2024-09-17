@@ -15,7 +15,7 @@ class Phrases(Enum):
 
 def dis_la_phrase(position: int) -> str:
     if position == Position.PLUS.value:
-        return "Le nombre a trouver est plus petit"
+        return Phrases.PLUS.value
     if position == Position.MOINS.value:
         return "Le nombre a trouver est plus grand"
     return ""
