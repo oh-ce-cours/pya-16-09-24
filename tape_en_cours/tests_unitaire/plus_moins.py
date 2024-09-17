@@ -35,7 +35,7 @@ def game():
     cible = random.randint(1, 100)
     print("triche (cible) :", cible)
     while True:
-        nombre_propose = int(input())
+        nombre_propose = int(input(Phrases.INPUT.value))
         resultat = regle_du_jeu(nombre_propose, cible)
         ihm = dis_la_phrase(resultat)
         if resultat == 0:
