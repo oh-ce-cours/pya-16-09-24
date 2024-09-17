@@ -8,6 +8,11 @@ class Position(Enum):
     EGAL = 0
 
 
+class Phrases(Enum):
+    PLUS = "Le nombre a trouver est plus petit"
+    MOINS = "Le nombre a trouver est plus grand"
+
+
 def dis_la_phrase(position: int) -> str:
     if position == Position.PLUS.value:
         return "Le nombre a trouver est plus petit"
