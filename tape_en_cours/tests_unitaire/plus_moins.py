@@ -13,9 +13,7 @@ def game():
     cible = random.randint(1, 100)
     print("triche (cible) :", cible)
     while True:
-        termine = False
         nombre_propose = int(input("Entrez un nombre : "))
         resultat = regle_du_jeu(nombre_propose, cible)
-        termine = resultat == 0
-        if termine:
+        if resultat == 0:
             break
