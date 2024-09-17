@@ -108,4 +108,5 @@ def parsing_triplet(triplet: list) -> dict:
 lines = tle_data.split("\n")
 lines = [l.strip() for l in lines if l]
 items = list(chunks(lines, 3))
-items
+
+print(f"Il y a {len(items)} items à parser")
