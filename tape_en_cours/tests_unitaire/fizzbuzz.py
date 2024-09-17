@@ -5,9 +5,9 @@ def is_multiple(nombre, dividende):
 def regle_fizz_buzz(nombre):
     res = ""
     if nombre % 3 == 0:
-        res += "fizz"
+        res = "fizz"
     if nombre % 5 == 0:
-        res += "buzz"
+        res = "buzz"
     if not res:
         res = str(nombre)
     return res
