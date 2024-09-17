@@ -3,8 +3,6 @@ import fizzbuzz
 
 from fizzbuzz import is_multiple
 
-print("__name__ dans test", __name__)
-
 
 def test_multiple():
     assert not is_multiple(3, 5)
