@@ -41,7 +41,7 @@ def game():
         if resultat == 0:
             break
         print(ihm)
-    print("Bravo")
+    print(Phrases.TERMINE.value)
 
 
 def main():
