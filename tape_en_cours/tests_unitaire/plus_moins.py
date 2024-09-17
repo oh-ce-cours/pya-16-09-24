@@ -18,9 +18,9 @@ def dis_la_phrase(position: int) -> str:
 
 def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
     if nombre_propose > nombre_a_deviner:
-        return 1
+        return Position.PLUS
     elif nombre_propose < nombre_a_deviner:
-        return -1
+        return Position.MOINS
     return 0
 
 
