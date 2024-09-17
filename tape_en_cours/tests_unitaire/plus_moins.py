@@ -11,7 +11,7 @@ class Position(Enum):
 def dis_la_phrase(position: int) -> str:
     if position == Position.PLUS:
         return "Le nombre a trouver est plus petit"
-    if position == -1:
+    if position == Position.MOINS:
         return "Le nombre a trouver est plus grand"
     return ""
 
