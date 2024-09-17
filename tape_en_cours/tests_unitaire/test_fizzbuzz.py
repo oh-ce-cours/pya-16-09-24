@@ -16,3 +16,13 @@ def test_fizzbuzz_multiple_3_est_fizz():
     result = regle_fizz_buzz(nombre)
     # assert
     assert result == attendu
+
+
+def test_fizzbuzz_multiple_5_est_buzz():
+    # arange
+    nombre = 5
+    attendu = "buzz"
+    # act
+    result = regle_fizz_buzz(nombre)
+    # assert
+    assert result == attendu
