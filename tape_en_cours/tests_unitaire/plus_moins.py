@@ -4,3 +4,10 @@ def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
     elif nombre_propose < nombre_a_deviner:
         return -1
     return 0
+
+
+def game():
+    while True:
+        terminated = False
+        if terminated:
+            break
