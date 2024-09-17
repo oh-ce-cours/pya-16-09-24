@@ -34,7 +34,7 @@ def test_nombre_propose_egal_cible():
     assert resultat == attendu
 
 
-def test_dis_la_phrase_cest_plus():
+def test_dis_la_phrase_cest_moins():
     # arange
     position = 1
     attendu = "Le nombre a trouver est plus petit"
@@ -47,8 +47,7 @@ def test_dis_la_phrase_cest_plus():
 def test_dis_la_phrase_cest_plus():
     # arange
     position = 1
-    attendu = "Le nombre a trouver est plus grand
-"
+    attendu = "Le nombre a trouver est plus grand"
     # act
     resultat = plus_moins.dis_la_phrase(position)
     # assert
