@@ -39,6 +39,7 @@ def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
 
 
 def get_locale(locale: str):
+    """Retourne les phrases dans la bonne langue"""
     if locale == "fr":
         return PhrasesFrancais
     if locale == "en":
