@@ -1,6 +1,6 @@
 import fizzbuzz
 
-print("dans test fizzbuzz")
+print("dans test fizzbuzz", fizzbuzz.toto)
 # from fizzbuzz import is_multiple, regle_fizz_buzz
 
 
