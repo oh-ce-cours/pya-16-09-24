@@ -1,7 +1,7 @@
 # import fizzbuzz
 # print("dans test fizzbuzz", fizzbuzz.toto)
 
-from fizzbuzz import is_multiple, regle_fizz_buzz
+from fizzbuzz import is_multiple
 
 print("dans test fizzbuzz")
 
