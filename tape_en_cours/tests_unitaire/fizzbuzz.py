@@ -13,6 +13,7 @@ def regle_fizz_buzz(nombre):
     return res
 
 
-for nombre in range(1, 16):
-    res = regle_fizz_buzz(nombre)
-    print(res)
+def main():
+    for nombre in range(1, 16):
+        res = regle_fizz_buzz(nombre)
+        print(res)
