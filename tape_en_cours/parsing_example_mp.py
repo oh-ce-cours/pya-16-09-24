@@ -112,5 +112,5 @@ items = list(chunks(lines, 3))
 print(f"Il y a {len(items)} items à parser")
 
 if __name__ == "__main__":
-    with multiprocessing.Pool(5) as p:
+    with multiprocessing.Pool(15) as p:
         print(p.map(parsing_triplet, items))
