@@ -1,4 +1,4 @@
-import plus_moins
+import plus_moins, dis_la_phrase
 
 
 def test_nombre_propose_plus_petit_que_cible():
@@ -32,3 +32,5 @@ def test_nombre_propose_egal_cible():
     resultat = plus_moins.regle_du_jeu(nombre_propose, nombre_a_deviner)
     # assert
     assert resultat == attendu
+
+def 
