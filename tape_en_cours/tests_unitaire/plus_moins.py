@@ -1,6 +1,11 @@
 import random
 
 
+def dis_la_phrase(position: int) -> str:
+    if position == 1:
+        return "Le nombre a trouver est plus petit"
+
+
 def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
     if nombre_propose > nombre_a_deviner:
         return 1
