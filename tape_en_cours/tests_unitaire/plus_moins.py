@@ -36,9 +36,10 @@ def game():
         nombre_propose = int(input("Entrez un nombre : "))
         resultat = regle_du_jeu(nombre_propose, cible)
         ihm = dis_la_phrase(resultat)
-        print()
         if resultat == 0:
             break
+        print(ihm)
+    print("Bravo")
 
 
 def main():
