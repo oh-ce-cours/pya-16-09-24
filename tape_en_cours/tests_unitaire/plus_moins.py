@@ -24,8 +24,6 @@ def game():
         nombre_propose = int(input("Entrez un nombre : "))
         resultat = regle_du_jeu(nombre_propose, cible)
         print(dis_la_phrase(resultat))
-        if resultat == 0:
-            break
 
 
 def main():
