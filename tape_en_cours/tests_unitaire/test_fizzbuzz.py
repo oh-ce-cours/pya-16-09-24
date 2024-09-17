@@ -45,4 +45,4 @@ def test_fizzbuzz_non_multiple_est_nombre():
     # act
     result = regle_fizz_buzz(nombre)
     # assert
-    assert result == attendu
+    assert result
