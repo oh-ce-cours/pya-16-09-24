@@ -13,8 +13,8 @@ def regle_fizz_buzz(nombre):
     return res
 
 
-print("dans fizzbuzz")
-# toto = 3
+toto = 3
+print("dans fizzbuzz", toto)
 
 # for nombre in range(1, 16):
 #     res = regle_fizz_buzz(nombre)
