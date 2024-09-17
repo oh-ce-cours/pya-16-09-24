@@ -11,6 +11,8 @@ class Position(Enum):
 class Phrases(Enum):
     PLUS = "Le nombre a trouver est plus petit"
     MOINS = "Le nombre a trouver est plus grand"
+    INPUT = "Entrez un nombre"
+    TERMINE = "Bravo"
 
 
 def dis_la_phrase(position: int) -> str:
