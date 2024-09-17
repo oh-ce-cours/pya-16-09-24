@@ -51,13 +51,13 @@ def game():
     print("triche (cible) :", cible)
     phrases_dans_la_langue = get_locale("fr")
     while True:
-        nombre_propose = int(input(Phrases.INPUT.value))
+        nombre_propose = int(input(phrases_dans_la_langue.INPUT.value))
         resultat = regle_du_jeu(nombre_propose, cible)
-        ihm = dis_la_phrase(resultat)
+        ihm = dis_la_phrase(resultat, phrases_dans_la_langue)
         if resultat == 0:
             break
         print(ihm)
-    print(Phrases.TERMINE.value)
+    print(phrases_dans_la_langue.TERMINE.value)
 
 
 def main():
