@@ -13,7 +13,7 @@ def regle_fizz_buzz(nombre):
     return res
 
 
-toto = 3
+toto = "je suis toto dans fizzbuzz"
 print("dans fizzbuzz", toto)
 
 # for nombre in range(1, 16):
