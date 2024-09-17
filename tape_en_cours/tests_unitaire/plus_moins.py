@@ -22,11 +22,11 @@ class PhrasesEnglish(Enum):
     TERMINE = "Congrats"
 
 
-def dis_la_phrase(position: int) -> str:
+def dis_la_phrase(position: int, phrases) -> str:
     if position == Position.PLUS.value:
-        return Phrases.PLUS.value
+        return phrases.PLUS.value
     if position == Position.MOINS.value:
-        return Phrases.MOINS.value
+        return phrases.MOINS.value
     return ""
 
 
