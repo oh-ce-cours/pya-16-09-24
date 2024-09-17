@@ -16,5 +16,6 @@ def game():
         termine = False
         nombre_propose = int(input("Entrez un nombre : "))
         resultat = regle_du_jeu(nombre_propose, cible)
+        termine = resultat == 0
         if termine:
             break
