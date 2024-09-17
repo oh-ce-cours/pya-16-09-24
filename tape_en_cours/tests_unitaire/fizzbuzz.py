@@ -2,6 +2,9 @@ def is_multiple(nombre, dividende):
     return nombre % dividende == 0
 
 
+nombre = 15
+
+
 def regle_fizz_buzz(nombre):
     res = ""
     if is_multiple(nombre, 3):
