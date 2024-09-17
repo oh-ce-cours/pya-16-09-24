@@ -8,7 +8,14 @@ class Position(Enum):
     EGAL = 0
 
 
-class Phrases(Enum):
+class PhrasesFrancais(Enum):
+    PLUS = "Le nombre a trouver est plus petit"
+    MOINS = "Le nombre a trouver est plus grand"
+    INPUT = "Entrez un nombre : "
+    TERMINE = "Bravo"
+
+
+class PhrasesEnglish(Enum):
     PLUS = "Le nombre a trouver est plus petit"
     MOINS = "Le nombre a trouver est plus grand"
     INPUT = "Entrez un nombre : "
@@ -34,6 +41,7 @@ def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
 def game():
     cible = random.randint(1, 100)
     print("triche (cible) :", cible)
+    phrases_dans_la_langue = ...
     while True:
         nombre_propose = int(input(Phrases.INPUT.value))
         resultat = regle_du_jeu(nombre_propose, cible)
