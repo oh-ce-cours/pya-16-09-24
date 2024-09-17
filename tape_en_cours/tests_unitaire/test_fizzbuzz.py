@@ -11,10 +11,10 @@ def test_multiple():
 def test_fizzbuzz_multiple_3_est_fizz():
     # arange
     nombre = 3
-    expected = "fizz"
+    attendu = "fizz"
 
     # act
     result = regle_fizz_buzz(nombre)
 
     # assert
-    assert result == expected
+    assert result == attendu
