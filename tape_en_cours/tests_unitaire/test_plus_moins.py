@@ -42,3 +42,14 @@ def test_dis_la_phrase_cest_plus():
     resultat = plus_moins.dis_la_phrase(position)
     # assert
     assert resultat == attendu
+
+
+def test_dis_la_phrase_cest_plus():
+    # arange
+    position = 1
+    attendu = "Le nombre a trouver est plus grand
+"
+    # act
+    resultat = plus_moins.dis_la_phrase(position)
+    # assert
+    assert resultat == attendu
