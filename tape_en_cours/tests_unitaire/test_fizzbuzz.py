@@ -1,4 +1,4 @@
-# import fizzbuzz
+import fizzbuzz
 # print("dans test fizzbuzz", fizzbuzz.toto)
 
 from fizzbuzz import is_multiple
