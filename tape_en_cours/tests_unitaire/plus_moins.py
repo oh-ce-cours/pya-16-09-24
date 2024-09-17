@@ -11,6 +11,7 @@ def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
 
 def game():
     cible = random.randint(1, 100)
+    print("triche (cible) :", cible)
     while True:
         termine = False
         if termine:
