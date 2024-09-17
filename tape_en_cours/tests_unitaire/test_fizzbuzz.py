@@ -1,7 +1,7 @@
 from fizzbuzz import is_multiple, regle_fizz_buzz
 import fizzbuzz
 
-print(fizzbuzz.toto)
+print("toto", fizzbuzz.toto)
 
 
 def test_multiple():
