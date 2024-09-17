@@ -14,7 +14,7 @@ def regle_fizz_buzz(nombre):
 
 
 toto = "je suis toto dans fizzbuzz"
-print("dans fizzbuzz", toto)
+print("dans fizzbuzz", toto, regle_fizz_buzz)
 
 # for nombre in range(1, 16):
 #     res = regle_fizz_buzz(nombre)
