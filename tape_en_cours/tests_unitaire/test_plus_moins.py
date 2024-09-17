@@ -16,7 +16,7 @@ def test_nombre_propose_plus_grand_que_cible():
     # arange
     nombre_propose = 40
     nombre_a_deviner = 11
-    attendu = 1
+    attendu = plus_moins.Position.PLUS.value
     # act
     resultat = plus_moins.regle_du_jeu(nombre_propose, nombre_a_deviner)
     # assert
