@@ -6,3 +6,4 @@ ISS DEB [TOOLBAG]
 2 33442 051.6268 036.9885 0007699 292.6234 072.1768 16.49476607 40751
 """
 lines = tle_data.split("\n")
+lines = [l.strip() for l in lines if l]
