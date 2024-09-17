@@ -9,9 +9,9 @@ class Position(Enum):
 
 
 def dis_la_phrase(position: int) -> str:
-    if position == Position.PLUS:
+    if position == Position.PLUS.value:
         return "Le nombre a trouver est plus petit"
-    if position == Position.MOINS:
+    if position == Position.MOINS.value:
         return "Le nombre a trouver est plus grand"
     return ""
 
@@ -21,7 +21,7 @@ def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
         return Position.PLUS.value
     elif nombre_propose < nombre_a_deviner:
         return Position.MOINS.value
-    return Position.EGAL
+    return Position.EGAL.value
 
 
 def game():
