@@ -17,3 +17,5 @@ ISS DEB [TOOLBAG]
 
 lines = tle_data.split("\n")
 lines = [l.strip() for l in lines if l]
+items = list(chunks(lines, 3))
+items
