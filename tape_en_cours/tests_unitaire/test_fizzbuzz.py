@@ -1,4 +1,7 @@
-from fizzbuzz import is_multiple, regle_fizz_buzz
+import fizzbuzz
+
+print("dans test fizzbuzz")
+# from fizzbuzz import is_multiple, regle_fizz_buzz
 
 
 def test_multiple():
