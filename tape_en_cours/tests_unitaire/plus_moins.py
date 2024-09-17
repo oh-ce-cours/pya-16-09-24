@@ -1,6 +1,10 @@
 import random
 
 
+class Position(Enum):
+    pass
+
+
 def dis_la_phrase(position: int) -> str:
     if position == 1:
         return "Le nombre a trouver est plus petit"
