@@ -14,6 +14,7 @@ def game():
     print("triche (cible) :", cible)
     while True:
         termine = False
+        nombre_propose = int(input("Entrez un nombre : "))
         resultat = regle_du_jeu(nombre_propose, cible)
         if termine:
             break
