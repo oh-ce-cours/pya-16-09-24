@@ -15,6 +15,49 @@ ISS DEB [TOOLBAG]
 """
 
 
+def parsing_triplet(triplet: list) -> dict:
+    res = {}
+    name, ligne1, ligne2 = triplet
+    if ligne1[0] != "1":
+        raise Exception("c'est pas bon ligne 1")
+    if ligne2[0] != "2":
+        raise Exception("c'est pas bon ligne 2")
+    res["name"] = name
+    elements_ligne_1 = ligne1.split()
+    elements_ligne_2 = ligne2.split()
+
+    """
+    labels_ligne_1 = ["champ11", "champ12", "champ13", "champ14", "champ15", "champ16", "champ17", "champ18", "champ19"]
+    
+    print(elements_ligne_1)
+    if len(elements_ligne_1) != 9:
+        raise Exception(f"pas le bon nombre d'éléments dans la ligne 1 on en a {len(elements_ligne_1)}, attendu 9")
+    
+    dico_ligne_1 = {label: value for label, value in zip(labels_ligne_1, elements_ligne_1)}
+    """
+    labels_ligne_2 = [
+        "champ21",
+        "champ22",
+        "champ23",
+        "champ24",
+        "champ25",
+        "champ26",
+        "champ27",
+        "champ28",
+        "champ29",
+    ]
+    dico_ligne_2 = {
+        label: value for label, value in zip(labels_ligne_2, elements_ligne_2)
+    }
+
+    dico_ligne_1 = {}
+    dico_ligne_1["champ11"] = ligne1[0].strip()
+    dico_ligne_1["champ12"] = ligne1[2:7].strip()
+    res.update(dico_ligne_1)
+    res.update(dico_ligne_2)
+    return res
+
+
 lines = tle_data.split("\n")
 lines = [l.strip() for l in lines if l]
 items = list(chunks(lines, 3))
