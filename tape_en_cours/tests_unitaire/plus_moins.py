@@ -2,7 +2,7 @@ from enum import Enum
 import random
 
 
-class Position(Enum, int):
+class Position(Enum):
     pass
 
 
