@@ -1,7 +1,8 @@
+from enum import Enum
 import random
 
 
-class Position(Enum):
+class Position(Enum, int):
     pass
 
 
