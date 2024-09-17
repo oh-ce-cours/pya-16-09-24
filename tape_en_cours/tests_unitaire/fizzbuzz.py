@@ -2,9 +2,6 @@ def is_multiple(nombre, dividende):
     return nombre % dividende == 0
 
 
-nombre = 15
-
-
 def regle_fizz_buzz(nombre):
     res = ""
     if is_multiple(nombre, 3):
@@ -15,8 +12,6 @@ def regle_fizz_buzz(nombre):
         res = str(nombre)
     return res
 
-
-regle_fizz_buzz(nombre)
 
 toto = "je suis toto dans fizzbuzz"
 print("dans fizzbuzz", toto)
