@@ -4,7 +4,7 @@ def is_multiple(nombre, dividende):
 
 def regle_fizz_buzz(nombre):
     res = ""
-    if nombre % 3 == 0:
+    if is_multiple(nombre, 3):
         res += "fizz"
     if nombre % 5 == 0:
         res += "buzz"
