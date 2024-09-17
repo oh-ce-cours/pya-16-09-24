@@ -11,7 +11,7 @@ class Position(Enum):
 class Phrases(Enum):
     PLUS = "Le nombre a trouver est plus petit"
     MOINS = "Le nombre a trouver est plus grand"
-    INPUT = "Entrez un nombre"
+    INPUT = "Entrez un nombre : "
     TERMINE = "Bravo"
 
 
@@ -35,7 +35,7 @@ def game():
     cible = random.randint(1, 100)
     print("triche (cible) :", cible)
     while True:
-        nombre_propose = int(input("Entrez un nombre : "))
+        nombre_propose = int(input())
         resultat = regle_du_jeu(nombre_propose, cible)
         ihm = dis_la_phrase(resultat)
         if resultat == 0:
