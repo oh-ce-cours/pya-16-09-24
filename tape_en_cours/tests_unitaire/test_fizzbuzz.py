@@ -41,7 +41,7 @@ def test_fizzbuzz_multiple_30_est_fizzbuzz():
 def test_fizzbuzz_non_multiple_est_nombre():
     # arange
     nombre = 4
-    attendu = "7"
+    attendu = "4"
     # act
     result = regle_fizz_buzz(nombre)
     # assert
