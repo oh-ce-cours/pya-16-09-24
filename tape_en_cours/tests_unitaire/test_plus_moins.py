@@ -21,3 +21,14 @@ def test_nombre_propose_plus_grand_que_cible():
     resultat = plus_moins.regle_du_jeu(nombre_propose, nombre_a_deviner)
     # assert
     assert resultat == attendu
+
+
+def test_nombre_propose_egal_cible():
+    # arange
+    nombre_propose = 13
+    nombre_a_deviner = 13
+    attendu = 1
+    # act
+    resultat = plus_moins.regle_du_jeu(nombre_propose, nombre_a_deviner)
+    # assert
+    assert resultat == attendu
