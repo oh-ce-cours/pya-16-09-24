@@ -27,7 +27,7 @@ def test_nombre_propose_egal_cible():
     # arange
     nombre_propose = 13
     nombre_a_deviner = 13
-    attendu = 0
+    attendu = plus_moins.Position.EGAL.value
     # act
     resultat = plus_moins.regle_du_jeu(nombre_propose, nombre_a_deviner)
     # assert
