@@ -3,14 +3,7 @@ def is_multiple(nombre, dividende):
 
 
 def regle_fizz_buzz(nombre):
-    res = ""
-    if nombre % 3 == 0:
-        res += "fizz"
-    if nombre % 5 == 0:
-        res += "buzz"
-    if not res:
-        res = str(nombre)
-    return res
+    return "toto"
 
 
 # for nombre in range(1, 16):
