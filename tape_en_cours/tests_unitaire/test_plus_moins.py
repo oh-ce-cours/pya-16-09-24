@@ -36,9 +36,8 @@ def test_nombre_propose_egal_cible():
 
 def test_dis_la_phrase_cest_plus():
     # arange
-    nombre_propose = 13
-    nombre_a_deviner = 13
-    attendu = 0
+    position = 1
+    attendu = "Le nombre a trouver est plus petit"
     # act
     resultat = plus_moins.regle_du_jeu(nombre_propose, nombre_a_deviner)
     # assert
