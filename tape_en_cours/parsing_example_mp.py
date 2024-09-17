@@ -50,7 +50,7 @@ ISS DEB [TOOLBAG]
 
 
 def parsing_triplet(triplet: list) -> dict:
-    print(time.sleep(10))
+    time.sleep(10)
     res = {}
     name, ligne1, ligne2 = triplet
     if ligne1[0] != "1":
