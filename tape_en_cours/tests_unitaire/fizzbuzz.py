@@ -6,7 +6,7 @@ def regle_fizz_buzz(nombre):
     res = ""
     if is_multiple(nombre, 3):
         res += "fizz"
-    if nombre % 5 == 0:
+    if is_multiple(nombre, 5):
         res += "buzz"
     if not res:
         res = str(nombre)
