@@ -3,7 +3,9 @@ import random
 
 
 class Position(Enum):
-    pass
+    PLUS = 1
+    MOINS = -1
+    EGAL = 0
 
 
 def dis_la_phrase(position: int) -> str:
