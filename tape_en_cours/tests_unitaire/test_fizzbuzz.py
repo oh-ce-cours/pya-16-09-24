@@ -28,10 +28,10 @@ def test_fizzbuzz_multiple_5_est_buzz():
     assert result == attendu
 
 
-def test_fizzbuzz_multiple_15_est_fizzbuzz():
+def test_fizzbuzz_multiple_30_est_fizzbuzz():
     # arange
-    nombre = 5
-    attendu = "buzz"
+    nombre = 30
+    attendu = "fizzbuzz"
     # act
     result = regle_fizz_buzz(nombre)
     # assert
