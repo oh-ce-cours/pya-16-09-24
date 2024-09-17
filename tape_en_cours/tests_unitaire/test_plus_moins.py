@@ -1,4 +1,4 @@
-import plus_moins, dis_la_phrase
+import plus_moins
 
 
 def test_nombre_propose_plus_petit_que_cible():
@@ -39,6 +39,6 @@ def test_dis_la_phrase_cest_plus():
     position = 1
     attendu = "Le nombre a trouver est plus petit"
     # act
-    resultat = plus_moins.regle_du_jeu(nombre_propose, nombre_a_deviner)
+    resultat = plus_moins.dis_la_phrase(position)
     # assert
     assert resultat == attendu
