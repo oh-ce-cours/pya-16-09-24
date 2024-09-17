@@ -73,7 +73,6 @@ def parsing_triplet(triplet: list) -> dict:
         "champ19",
     ]
 
-    print(elements_ligne_1)
     if len(elements_ligne_1) != 9:
         raise Exception(
             f"pas le bon nombre d'éléments dans la ligne 1 on en a {len(elements_ligne_1)}, attendu 9"
