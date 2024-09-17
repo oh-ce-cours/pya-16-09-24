@@ -13,7 +13,7 @@ def regle_fizz_buzz(nombre):
     return res
 
 
-def main():
+def main():  # pragma: no cover
     for nombre in range(1, 16):
         res = regle_fizz_buzz(nombre)
         print(res)
