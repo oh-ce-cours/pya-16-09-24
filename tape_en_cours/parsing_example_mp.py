@@ -110,3 +110,7 @@ lines = [l.strip() for l in lines if l]
 items = list(chunks(lines, 3))
 
 print(f"Il y a {len(items)} items à parser")
+
+if __name__ == "__main__":
+    with multiprocessing.Pool(5) as p:
+        print(p.map(parsing_triplet, items))
