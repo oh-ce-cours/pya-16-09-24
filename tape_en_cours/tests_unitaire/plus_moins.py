@@ -8,6 +8,6 @@ def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
 
 def game():
     while True:
-        terminated = False
-        if terminated:
+        termine = False
+        if termine:
             break
