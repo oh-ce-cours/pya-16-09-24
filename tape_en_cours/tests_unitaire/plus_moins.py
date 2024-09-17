@@ -38,6 +38,14 @@ def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
     return Position.EGAL.value
 
 
+def get_locale(locale: str):
+    if locale == "fr":
+        return PhrasesFrancais
+    if locale == "en":
+        return PhrasesEnglish
+    return PhrasesFrancais
+
+
 def game():
     cible = random.randint(1, 100)
     print("triche (cible) :", cible)
