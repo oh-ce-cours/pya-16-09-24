@@ -49,7 +49,7 @@ def get_locale(locale: str):
 def game():
     cible = random.randint(1, 100)
     print("triche (cible) :", cible)
-    phrases_dans_la_langue = ...
+    phrases_dans_la_langue = get_locale("fr")
     while True:
         nombre_propose = int(input(Phrases.INPUT.value))
         resultat = regle_du_jeu(nombre_propose, cible)
