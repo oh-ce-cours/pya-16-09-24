@@ -36,3 +36,13 @@ def test_fizzbuzz_multiple_30_est_fizzbuzz():
     result = regle_fizz_buzz(nombre)
     # assert
     assert result == attendu
+
+
+def test_fizzbuzz_non_multiple_est_nombre():
+    # arange
+    nombre = 7
+    attendu = "7"
+    # act
+    result = regle_fizz_buzz(nombre)
+    # assert
+    assert result == attendu
