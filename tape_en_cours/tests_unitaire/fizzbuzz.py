@@ -13,6 +13,7 @@ def regle_fizz_buzz(nombre):
     return res
 
 
+print("dans fizzbuzz")
 # toto = 3
 
 # for nombre in range(1, 16):
