@@ -16,6 +16,8 @@ def regle_fizz_buzz(nombre):
     return res
 
 
+regle_fizz_buzz(nombre)
+
 toto = "je suis toto dans fizzbuzz"
 print("dans fizzbuzz", toto)
 
