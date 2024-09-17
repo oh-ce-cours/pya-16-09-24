@@ -17,7 +17,7 @@ def dis_la_phrase(position: int) -> str:
     if position == Position.PLUS.value:
         return Phrases.PLUS.value
     if position == Position.MOINS.value:
-        return "Le nombre a trouver est plus grand"
+        return Phrases.MOINS.value
     return ""
 
 
