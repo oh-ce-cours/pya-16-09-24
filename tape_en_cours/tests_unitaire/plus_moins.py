@@ -17,3 +17,11 @@ def game():
         resultat = regle_du_jeu(nombre_propose, cible)
         if resultat == 0:
             break
+
+
+def main():
+    game()
+
+
+if __name__ == "__main__":
+    pass
