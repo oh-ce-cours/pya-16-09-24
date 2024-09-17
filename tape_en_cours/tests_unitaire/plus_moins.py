@@ -16,10 +16,10 @@ class PhrasesFrancais(Enum):
 
 
 class PhrasesEnglish(Enum):
-    PLUS = "Le nombre a trouver est plus petit"
-    MOINS = "Le nombre a trouver est plus grand"
-    INPUT = "Entrez un nombre : "
-    TERMINE = "Bravo"
+    PLUS = "Le number a trouver is plus petit"
+    MOINS = "Le number a trouver is plus grand"
+    INPUT = "Enter a nombre : "
+    TERMINE = "Congrats"
 
 
 def dis_la_phrase(position: int) -> str:
