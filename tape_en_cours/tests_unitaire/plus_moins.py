@@ -18,10 +18,10 @@ def dis_la_phrase(position: int) -> str:
 
 def regle_du_jeu(nombre_propose: int, nombre_a_deviner: int) -> int:
     if nombre_propose > nombre_a_deviner:
-        return Position.PLUS
+        return Position.PLUS.value
     elif nombre_propose < nombre_a_deviner:
-        return Position.MOINS
-    return 0
+        return Position.MOINS.value
+    return Position.EGAL
 
 
 def game():
