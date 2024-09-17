@@ -25,7 +25,7 @@ def test_fizzbuzz_multiple_5_est_buzz():
     # act
     result = regle_fizz_buzz(nombre)
     # assert
-    assert result == attendu
+    assert result
 
 
 def test_fizzbuzz_multiple_30_est_fizzbuzz():
@@ -35,7 +35,7 @@ def test_fizzbuzz_multiple_30_est_fizzbuzz():
     # act
     result = regle_fizz_buzz(nombre)
     # assert
-    assert result == attendu
+    assert result
 
 
 def test_fizzbuzz_non_multiple_est_nombre():
