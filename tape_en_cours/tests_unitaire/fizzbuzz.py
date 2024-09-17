@@ -13,9 +13,6 @@ def regle_fizz_buzz(nombre):
     return res
 
 
-__name__ = "toto"
-
-
 def main():
     for nombre in range(1, 16):
         res = regle_fizz_buzz(nombre)
