@@ -46,7 +46,7 @@ def test_dis_la_phrase_cest_moins():
 
 def test_dis_la_phrase_cest_plus():
     # arange
-    position = -1
+    position = plus_moins.Position.MOINS.value
     attendu = "Le nombre a trouver est plus grand"
     # act
     resultat = plus_moins.dis_la_phrase(position)
