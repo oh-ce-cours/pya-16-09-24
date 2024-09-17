@@ -3,16 +3,13 @@ def is_multiple(nombre, dividende):
 
 
 def regle_fizz_buzz(nombre):
-    res = None
-    match is_multiple(nombre, 3), is_multiple(nombre, 5):
-        case True, True:
-            res = "fizzbuzz"
-        case True, False:
-            res = "fizz"
-        case False, True:
-            res = "buzz"
-        case False, False:
-            res = str(nombre)
+    res = ""
+    if nombre % 3 == 0:
+        res += "fizz"
+    if nombre % 5 == 0:
+        res += "buzz"
+    if not res:
+        res = str(nombre)
     return res
 
 
