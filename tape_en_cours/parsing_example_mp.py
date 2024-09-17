@@ -62,9 +62,9 @@ def parsing_triplet(triplet: list) -> dict:
         label: value for label, value in zip(labels_ligne_2, elements_ligne_2)
     }
 
-    dico_ligne_1 = {}
-    dico_ligne_1["champ11"] = ligne1[0].strip()
-    dico_ligne_1["champ12"] = ligne1[2:7].strip()
+    # dico_ligne_1 = {}
+    # dico_ligne_1["champ11"] = ligne1[0].strip()
+    # dico_ligne_1["champ12"] = ligne1[2:7].strip()
     res.update(dico_ligne_1)
     res.update(dico_ligne_2)
     return res
