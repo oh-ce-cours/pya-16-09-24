@@ -108,6 +108,7 @@ lines = tle_data.split("\n")
 lines = [l.strip() for l in lines if l]
 items = list(chunks(lines, 3))
 
+print(f"{__name__=}")
 
 if __name__ == "__main__":
     print(f"Il y a {len(items)} items à parser")
