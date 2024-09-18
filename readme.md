@@ -19,3 +19,7 @@ Copy over the downloaded packages to this system and then you can use
 
 to install those downloaded modules, without accessing the network.
 
+
+# Manipulation des fstrings 
+
+https://fstring.help/cheat/
