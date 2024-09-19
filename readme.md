@@ -115,3 +115,15 @@ and use:
 >>> stdout, stderr = subprocess.Popen("cmd.exe", stdout=subprocess.PIPE,
 ...     startupinfo=sysuser).communicate()
 ```
+
+# Création de modules
+
+* on peut créer des modules installable avec `pip`
+* on peut créer des executables qui n'ont pas besoin de python sur la machine cible 
+
+
+Pour le premier point, voir le cours. 
+
+Pour le deuxième, on peut utiliser `pyinstaller`. Il y a un exemple dans "tape_en_cours". On peut également utiliser un wrapper pour pyinstaller : auto py to exe : voici un tutoriel en francais : https://www.docstring.fr/formations/convertir-un-script-en-fichier-executable/avec-auto-py-to-exe-sur-windows-1523/
+
+
