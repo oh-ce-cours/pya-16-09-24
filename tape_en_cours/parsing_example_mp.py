@@ -114,3 +114,6 @@ if __name__ == "__main__":
     print(f"Il y a {len(items)} items à parser")
     with multiprocessing.Pool(15) as p:
         print(p.map(parsing_triplet, items))
+
+
+open("./toto.txt")
