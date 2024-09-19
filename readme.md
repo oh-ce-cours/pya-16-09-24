@@ -124,6 +124,6 @@ and use:
 
 Pour le premier point, voir le cours. 
 
-Pour le deuxième, on peut utiliser `pyinstaller`. Il y a un exemple dans "tape_en_cours". On peut également utiliser un wrapper pour pyinstaller : auto py to exe : voici un tutoriel en francais : https://www.docstring.fr/formations/convertir-un-script-en-fichier-executable/avec-auto-py-to-exe-sur-windows-1523/
+Pour le deuxième, on peut utiliser `pyinstaller`. Il y a un exemple dans "tape_en_cours". On peut également utiliser un wrapper pour pyinstaller : `auto py to exe`, voici un tutoriel en francais : https://www.docstring.fr/formations/convertir-un-script-en-fichier-executable/avec-auto-py-to-exe-sur-windows-1523/
 
 
