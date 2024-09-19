@@ -9,7 +9,7 @@ class Mere:
 class Fille(Mere):
     def methode(self):
         print("dans fille methode 1")
-        self.methode2()
+        super().methode2()
 
     def methode2(self):
         print("dans fille methode 2")
